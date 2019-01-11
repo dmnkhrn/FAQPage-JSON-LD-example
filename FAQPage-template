@@ -1,0 +1,27 @@
+<script type = "application/ld+json"> {
+	"@context": "http://schema.org",
+	"@type": "FAQPage",
+	"name": "Title of the page",
+	"mainEntity": [{
+			"@type": "Question",
+			"name": "Is this the first question?",
+			"answerCount": 1,
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Yes, this is the first question."},
+				"image": {
+					"@type": "ImageObject",
+					"contentUrl": "https://www.example.com/image-relating-to-the-question.png"
+				}
+			},
+			{
+				"@type": "Question",
+				"name": "Can I add another question to this markup?",
+				"answerCount": 1,
+				"acceptedAnswer": {
+					"@type": "Answer",
+					"text": "Sure you can."
+				}
+			}]
+	}
+</script>
